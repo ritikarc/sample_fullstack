@@ -11,7 +11,7 @@ let Todo = require('./todo.model');
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://127.0.0.1:27017/tutorial', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://admin:4vVFRe2DX1VjjI4c@cluster0.qiiwi.mongodb.net/Cluster0?retryWrites=true&w=majority/tutorial', { useNewUrlParser: true });
 const connection = mongoose.connection;
 
 connection.once('open', function() {
