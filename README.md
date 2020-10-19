@@ -14,11 +14,16 @@ A list of node modules to download to run this code:
 
 <h6>
 - cd server
+  
 - npm i
+
 - nodemon server
 
+  
 - cd client
+
 - npm i
+
 - npm start
 
 </h6>
