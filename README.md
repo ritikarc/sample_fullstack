@@ -13,19 +13,17 @@ A list of node modules to download to run this code:
 </h5>
 
 <h6>
-- npm start
-
-- npm install bootstrap
-- npm install react-router-dom
-- npm install express body-parser cors mongoose
-- npm install -g nodemon
+- cd server
+  
+- npm i
 
 - nodemon server
 
-- mongod
-- mongo
-- use tutorial
+  
+- cd client
 
-- npm install axios
+- npm i
+
+- npm start
 
 </h6>
